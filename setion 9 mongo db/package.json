@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5",
+    "package-json": "^10.0.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0"
+  }
+}
